@@ -3,54 +3,61 @@
 <html>
   <head>
     <title> PicShare </title>
-
-    <link rel="stylesheet" type="text/css" href="nav.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="footer.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/reset.css">
   </head>
 
   <body>
+
+    <div class="nav-bg">
+      <div class="nav">
+        <div class="logo">
+          <a href="#"> Pic Share! </a>
+        </div>
+
+        <ul class="navlinks">
+          <li> <a href="#gallery"> THE GALLERY </a> </li>
+          <li> <a href="#how"> HOW IT WORKS? </a> </li>
+          <li> <a href="#help"> HELP </a> </li>
+        </ul>
+      </div>
+    </div>
+
     <div class="container">
 
-      <div class="nav-bg">
-        <div class="nav">
-          <div class="logo">
-            <a href="#"> Pic Share! </a>
-          </div>
-
-          <ul class="navlinks">
-            <li> <a href="#gallery"> THE GALLERY </a> </li>
-            <li> <a href="#how"> HOW IT WORKS? </a> </li>
-            <li> <a href="#help"> HELP </a> </li>
-            <div class="spacer" style="clear: both;"></div>
-          </ul>
-        </div>
-      </div>
-
-      <div class="blue_box">
+      <div class="banner">
       </div>
 
       <div class="details">
 
-        <div class="details_title"> HOW IT WORKS </div>
+        <h1 class="detailsTitle"> HOW IT WORKS </h1>
 
-        <div class="circles">
-          <div class="circle">
-            <div class="c"> </div>
-            <div class="details_text">Add art to your queue online<br><br><br></div>
-          </div>
-          <div class="circle">
-            <div class="c"> </div>
-            <div class="details_text">Receive art at your home in the order you specify<br><br></div>
-          </div>
-          <div class="circle">
-            <div class="c"> </div>
-            <div class="details_text">Keep the art for as long as you like. Buy only what you love</div>
-          </div>
-          <div class="circle">
-            <div class="c"> </div>
-            <div class="details_text">Return art to receive the next piece in your queue</div>
-          </div>
+        <ul class="workflow">
+          <li class="steps first-step">
+            <a href="#">
+              <div class="circle"> </div>
+              <p>Add art to your queue online</p>
+            </a>
+          </li>
+          <li class="steps">
+            <a href="#">
+              <div class="circle"> </div>
+              <p>Receive art at home in the order you specify</p>
+            </a>
+          </li>
+          <li class="steps">
+            <a href="#">
+              <div class="circle"> </div>
+              <p>Keep the art as long as you like. Buy only what you love</p>
+            </a>
+          </li>
+          <li class="steps">
+            <a href="#">
+              <div class="circle"> </div>
+              <p>Return the art to receive the next item in your queue</p>
+            </a>
+          </li>
+          </ul>
 
         </div>
       </div>
@@ -62,7 +69,6 @@
             <li> <a href="#"> THE GALLERY </a> </li>
             <li> <a href="#"> HOW IT WORKS </a> </li>
             <li> <a href="#"> HELP </a> </li>
-            <div class="spacer" style="clear: both;"></div>
           </ul>
         </div>
       </div>

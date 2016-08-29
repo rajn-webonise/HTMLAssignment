@@ -1,0 +1,159 @@
+.clears{
+  clear: both;
+}
+
+.nav-bg{
+  background-color: gray;
+}
+
+.nav{
+  width: 1170px;
+  margin: 0px auto;
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+}
+
+.logo{
+  background-color: #ff8000;
+  line-height: 35px;
+  text-align: center;
+  width: 140px;
+  text-decoration: none;
+  display:inline-block;
+}
+
+.logo a:link, .logo a:visited{
+  color: #980000;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
+}
+
+
+.nav ul{
+    display:inline-block;
+}
+
+.nav li{
+  display:inline-block;
+  margin-left: 50px;
+  line-height: 35px;
+}
+
+.navlinks a:link, .navlinks a:visited {
+    color: #aaaaaa;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.navlinks a:hover, .navlinks a:active {
+    color: white;
+}
+
+
+.container{
+  width: 100%;
+}
+
+.banner{
+  height: 485px;
+  width: 100%;
+  background-color: #71c4ea;
+}
+
+.details{
+  width:1170px;
+  margin: 0 auto;
+  margin-top: 64px;
+  text-align: center;
+}
+
+.detailsTitle{
+  color: #444444;
+  font-size: 36px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.workflow{
+  margin: 0px auto;
+  margin-top:70px;
+  display: inline-block;
+}
+
+
+.steps{
+  margin-left: 75px;
+  float: left;
+}
+
+.first-step{
+  margin-left: 0px;
+}
+
+.steps a:link, .steps a:visited{
+  color: #888888;
+  text-decoration: none;
+}
+
+.steps a:hover, .steps a:active{
+  color: #2b2b2b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.circle {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: #efefef;
+}
+
+.steps p {
+  font-size: 18px;
+  width: 140px;
+  padding-top: 15px;
+  line-height: 22px;
+  text-align: center;
+}
+
+
+
+.footer-bg{
+  margin-top: 110px;
+  background-color: #ECECEC;
+}
+
+.footer{
+  margin: 0 auto;
+  text-align: center;
+  width: 1170px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+
+.footer ul{
+  display: inline-block;
+}
+
+.footer li{
+  list-style-type: none;
+  float: left;
+  margin-left: 25px;
+  line-height: 25px;
+}
+
+
+.footer a:link, .footer a:visited{
+  color: #FF8000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer a:hover{
+  color: #444444;
+  text-decoration: none;
+  font-weight: bold;
+}
