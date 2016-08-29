@@ -19,7 +19,7 @@
   text-align: center;
   width: 140px;
   text-decoration: none;
-  display:inline-block;
+  float: left;
 }
 
 .logo a:link, .logo a:visited{
@@ -31,11 +31,10 @@
 
 
 .nav ul{
-    display:inline-block;
 }
 
 .nav li{
-  display:inline-block;
+  float:left;
   margin-left: 50px;
   line-height: 35px;
 }
@@ -82,7 +81,6 @@
   display: inline-block;
 }
 
-
 .steps{
   margin-left: 75px;
   float: left;
@@ -104,6 +102,7 @@
 }
 
 .circle {
+  display: inline-block;
   width: 140px;
   height: 140px;
   border-radius: 50%;
@@ -117,7 +116,6 @@
   line-height: 22px;
   text-align: center;
 }
-
 
 
 .footer-bg{
@@ -144,7 +142,6 @@
   margin-left: 25px;
   line-height: 25px;
 }
-
 
 .footer a:link, .footer a:visited{
   color: #FF8000;
