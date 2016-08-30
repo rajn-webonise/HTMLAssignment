@@ -2,13 +2,15 @@
   clear: both;
 }
 
-.nav-bg{
-  background-color: gray;
-}
 
-.nav{
+.container{
   width: 1170px;
   margin: 0px auto;
+}
+
+
+.nav{
+  background-color: gray;
   padding-top: 7.5px;
   padding-bottom: 7.5px;
 }
@@ -31,6 +33,7 @@
 
 
 .nav ul{
+  float:left;
 }
 
 .nav li{
@@ -50,11 +53,6 @@
     color: white;
 }
 
-
-.container{
-  width: 100%;
-}
-
 .banner{
   height: 485px;
   width: 100%;
@@ -62,8 +60,6 @@
 }
 
 .details{
-  width:1170px;
-  margin: 0 auto;
   margin-top: 64px;
   text-align: center;
 }
@@ -71,12 +67,12 @@
 .detailsTitle{
   color: #444444;
   font-size: 36px;
+  line-height: 36px;
   text-align: center;
   font-weight: bold;
 }
 
 .workflow{
-  margin: 0px auto;
   margin-top:70px;
   display: inline-block;
 }
@@ -86,13 +82,14 @@
   float: left;
 }
 
-.first-step{
+.steps:first-child{
   margin-left: 0px;
 }
 
 .steps a:link, .steps a:visited{
   color: #888888;
   text-decoration: none;
+  display: inline-block;
 }
 
 .steps a:hover, .steps a:active{
@@ -117,18 +114,10 @@
   text-align: center;
 }
 
-
-.footer-bg{
-  margin-top: 110px;
-  background-color: #ECECEC;
-}
-
 .footer{
-  margin: 0 auto;
+  background-color: #ECECEC;
+  margin-top: 110px;
   text-align: center;
-  width: 1170px;
-  padding-top: 12px;
-  padding-bottom: 12px;
 }
 
 
@@ -140,13 +129,14 @@
   list-style-type: none;
   float: left;
   margin-left: 25px;
-  line-height: 25px;
+  line-height: 37px;
 }
 
 .footer a:link, .footer a:visited{
   color: #FF8000;
   text-decoration: none;
   font-weight: bold;
+  padding: 10px;
 }
 
 .footer a:hover{
