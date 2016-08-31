@@ -3,21 +3,19 @@
 }
 
 .logo {
-  height: 80px;
-  margin: 15px 0;
+  max-width: 100%;
+  padding: 11px 0;
+}
+
+.logolink{
+  display: inline-block;
 }
 
 .navbar-custom {
   background-color: #3355aa;
   font-style: italic;
   font-size: 16px;
-}
-
-.navbar-links > li > a {
-  color: white  !important;
-}
-.navbar-links > li > a:hover {
-  color: gray  !important;
+  min-height: 40px;
 }
 
 .btn-default{
@@ -28,15 +26,18 @@
   color: white;
 }
 
-.navbar-nav > li > a {padding-top:10px !important; padding-bottom:10px !important;}
 
-.navbar {min-height:40px !important}
+.navbarlinks > li > a:link, .navbarlinks > li > a:visited {
+  color: white;
+  padding:10px;
+}
+
+.navbar-default .navbarlinks > li > a:hover,.navbar-default .navbarlinks > li > a:focus {
+   color: yellow;
+}
 
 .navbar-form{
   margin:3px 0 0 0;
-}
-
-.banner{
 }
 
 .bannerFirst{
@@ -62,17 +63,10 @@
   font-size: 16px;
   color: #3355aa;
   font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #ffb734;
 }
 
-.articles hr{
-  margin: 0;
-  border-top: 3px solid #ffb734;
-}
-
-.blogs hr{
-  margin: 10px 0;
-  border-top: 1px solid #dedede;
-}
 
 .articles p{
   text-align: left;
@@ -83,6 +77,15 @@
   color: grey;
   font-size: 10px;
 }
+
+.articles li{
+  margin-bottom: 10px;
+}
+
+.blogs li{
+  border-bottom: 1px solid #dedede;
+}
+
 
 .sector{
   background-color: #d4d4d4;
@@ -97,6 +100,9 @@
   font-weight:bold;
 }
 
+.sectorlink {
+  display: inline-block;
+}
 
 .eachSector{
   background-color: white;
@@ -111,6 +117,7 @@
   color: #3355aa;
   font-weight: bold;
   line-height: 32px;
+  padding: 0 20px;
 }
 
 .box{
@@ -128,17 +135,31 @@
 .footer a:link, .footer a:visited{
   color: gray;
   text-decoration: none;
+  padding: 20px 0;
 }
+
+.footer span{
+  padding: 0 10px;
+  border-right: 1px solid #bfbfbf;
+}
+
 
 .footer a:hover{
   color: white;
   text-decoration: none;
 }
 
+
+.footerlinks{
+  border-bottom: 1px solid #3d3d3d;
+}
+
+
 .leftFooter{
   float: left;
   margin-bottom: 0px;
 }
+
 
 .leftFooter li{
   float: left;
@@ -159,11 +180,7 @@
   clear: both;
 }
 
-.footer hr{
-  margin: 0px;
-  border-top: 1px solid #3d3d3d;
-}
-
 .footer p{
   margin-bottom: 0px;
+  margin-left: 10px;
 }
