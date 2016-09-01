@@ -1,0 +1,267 @@
+.navbar-default{
+  background-color: white;
+  border: 0px;
+  border-bottom: 1px solid #b1b1b1;
+  margin-bottom: 0;
+}
+
+.navbar{
+  border-radius: 0;
+}
+
+
+.nav > li{
+  border-left: 1px solid #b1b1b1;
+}
+
+.menubar{
+  max-height: 100%;
+  min-width: 24px;
+}
+
+.logo{
+  height: 32px;
+}
+
+.customerNameBox{
+  display: inline-block;
+  padding: 11px;
+}
+
+.customerName{
+  display: inline-block;
+  padding: 6px;
+  border-radius: 20px;
+  background-color: #1166ee;
+  color: white;
+}
+
+.navbar-nav > li > a:link{
+  padding: 10px ;
+  line-height: 34px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+  background-color: #f3f3f3;
+}
+
+
+
+.glyphicon{
+  font-size: 18px;
+  color: red;
+}
+
+.navUser{
+  float: right;
+  margin-left: 10px;
+  margin-right: 30px;
+}
+
+.navUser p{
+  font-size: 11px;
+  margin-top: -16px;
+  margin-bottom: 0px;
+}
+
+.navUser p:first-child {
+  margin-top: -10px;
+  font-size: 14px;
+  color: #222;
+}
+
+
+/* Content Section */
+
+.contentSection{
+  background-color: #FCFCFC;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.contentSection span{
+  font-size: 18px;
+  color: #333;
+  display: inline;
+}
+
+.contentSection button{
+  margin-left: 30px;
+}
+
+.btn{
+  border-radius: 0;
+}
+
+.btn-default, .btn-default:hover{
+  border-color: #1166ee;
+  color: #1166ee;
+}
+
+.col-sm-4 {
+  margin-top: 20px;
+}
+
+.box{
+  width: 370px;
+  height: 369px;
+  background-color: white;
+  border: 1px solid #b1b1b1;
+}
+
+.boxhead{
+  height: 90px;
+  border-bottom: 1px solid #b1b1b1;
+  text-align: center;
+  position: relative;
+}
+
+.boxhead img{
+  max-width: 200px;
+  max-height: 90px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.boxBody{
+  padding: 20px;
+}
+
+.boxTitle span{
+  font-size: 18px;
+  color: #333;
+  display: block;
+}
+
+.boxTitle span:last-child {
+  display: block;
+  font-size: 14px;
+  color: #aaaaaa;
+}
+
+.boxTitle div{
+  display: inline-block;
+}
+
+.boxTitle img{
+  float: right;
+}
+
+.boxLabels{
+  margin-top: 20px;
+}
+
+.boxLabels li{
+  display: inline-block;
+  vertical-align: text-top;
+  margin-left: 20px;
+}
+
+
+.labelRow2{
+  margin-top: 10px;
+}
+
+
+.detailsLink {
+  margin-top: 10px;
+  color: #1166ee;
+}
+
+.labelBig{
+  width: 130px;
+  float: left;
+}
+
+.labelSmall{
+  width: 90px;
+  float: left;
+}
+
+
+.labelTicket span{
+  color: #1166ee;
+  font-size: 16px;
+  display: block;
+}
+
+.labelTicket span:last-child {
+  color: #1166ee;
+  font-size: 48px;
+  line-height: 48px;
+}
+
+
+.labelSev1 span{
+  color: #ff0000;
+  font-size: 14px;
+  display: block;
+}
+
+.labelSev1 span:last-child {
+  color: #ff0000;
+  font-size: 24px;
+}
+
+.labelSev2 span{
+  color: #333333;
+  font-size: 14px;
+  display: block;
+}
+
+.labelSev2 span:last-child {
+  color: #1166ee;
+  font-size: 24px;
+}
+
+.labelAA span{
+  color: #333333;
+  font-size: 16px;
+  display: block;
+}
+
+.labelAA span:last-child {
+  color: #1166ee;
+  font-size: 30px;
+}
+
+.footerSection {
+  background-color: #FCFCFC;
+}
+
+.footLinks{
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.footLinks ul{
+  display: inline-block;
+}
+
+.footLinks li{
+  float: left;
+  border-left: 1px solid #666;
+}
+
+.footLinks li:first-child{
+  border: 0;
+}
+
+.footLinks a{
+  font-size: 12px;
+  color: #666;
+  padding: 14px;
+}
+
+
+
+.clears{
+  clear: both;
+}
+
+
+/* Footer */
